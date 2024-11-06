@@ -3,7 +3,10 @@ import React, { useState } from 'react';
 import { ChevronDown, ChevronUp, Code, Database, Cloud, Lock, Bug, Settings, Layout, Users } from 'lucide-react';
 
 const SkillsDashboard = () => {
-    const [expandedSkill, setExpandedSkill] = useState<Number | null>(null);
+    const [expandedSkill, setExpandedSkill] = useState<number | null>(null);
+
+    const x = 4
+
 
     const skills = [
         {
