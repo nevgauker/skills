@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "deploy": "./build-and-push.sh"
+    "deploy": "build-and-push.bat"
   },
   "dependencies": {
     "lucide-react": "^0.454.0",
