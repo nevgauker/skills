@@ -5,9 +5,6 @@ import { ChevronDown, ChevronUp, Code, Database, Cloud, Lock, Bug, Settings, Lay
 const SkillsDashboard = () => {
     const [expandedSkill, setExpandedSkill] = useState<number | null>(null);
 
-    const x = 4
-
-
     const skills = [
         {
             title: "Front-end Development",
